@@ -4194,7 +4194,7 @@ const talent_data: Record<string, Talent> = {
         },
         "description": "+2% xVoid Pen, Conversion 50% Resvoid to Elevoid",
         "stats": {
-            "xVoid Pen%": 0.02
+            "Void xPen%": 0.02
         },
         "conversions": [
             {
@@ -4485,7 +4485,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+4 ATK",
-        "stats": {},
+        "stats": {
+            "ATK": 4
+        },
         "conversions": []
     },
     "Strength Training 2": {
@@ -4504,7 +4506,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+6 ATK",
-        "stats": {},
+        "stats": {
+            "ATK": 6
+        },
         "conversions": []
     },
     "Strength Exercises": {
@@ -4523,7 +4527,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+8 ATK",
-        "stats": {},
+        "stats": {
+            "ATK": 8
+        },
         "conversions": []
     },
     "Warrior Spirit 1": {
@@ -4671,7 +4677,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+8 ATK",
-        "stats": {},
+        "stats": {
+            "ATK": 8
+        },
         "conversions": []
     },
     "Adv Strength Training 2": {
@@ -4690,7 +4698,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10 ATK",
-        "stats": {},
+        "stats": {
+            "ATK": 10
+        },
         "conversions": []
     },
     "Body Building": {
@@ -4709,7 +4719,10 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10 ATK, +10 DEF",
-        "stats": {},
+        "stats": {
+            "ATK": 10,
+            "DEF%": 10
+        },
         "conversions": []
     },
     "Path of the Archer": {
@@ -5244,7 +5257,10 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10 ATK, +10 DEF",
-        "stats": {},
+        "stats": {
+            "ATK": 10,
+            "DEF": 10
+        },
         "conversions": []
     },
     "Hero Conditioning 2": {
@@ -5263,7 +5279,10 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+12 ATK, +10 DEF",
-        "stats": {},
+        "stats": {
+            "ATK": 12,
+            "DEF": 10
+        },
         "conversions": []
     },
     "Hero's Training": {
@@ -5952,7 +5971,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10 MP",
-        "stats": {},
+        "stats": {
+            "MP": 10
+        },
         "conversions": []
     },
     "Inner Spirit 2": {
@@ -5971,7 +5992,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10 MP",
-        "stats": {},
+        "stats": {
+            "MP": 10
+        },
         "conversions": []
     },
     "Inner Spirit 3": {
@@ -5990,7 +6013,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10 MP",
-        "stats": {},
+        "stats": {
+            "MP": 10
+        },
         "conversions": []
     },
     "Critical Exploit 1": {
@@ -6606,7 +6631,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+5% Physical Penetration",
-        "stats": {},
+        "stats": {
+            "Physical Pen%": 0.05
+        },
         "conversions": []
     },
     "Penetration 2": {
@@ -6625,7 +6652,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+5% Physical Penetration",
-        "stats": {},
+        "stats": {
+            "Physical Pen%": 0.05
+        },
         "conversions": []
     },
     "Reality Breaker": {
@@ -6644,7 +6673,10 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10% Physical Penetration",
-        "stats": {},
+        "stats": {
+            "Physical Pen%": 0.1
+
+        },
         "conversions": []
     },
     "Demigod's Strength 1": {
@@ -7388,7 +7420,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10% Physical Penetration",
-        "stats": {},
+        "stats": {
+            "Physical Pen%": 0.1,
+        },
         "conversions": []
     },
     "Magni's Blessing 1": {
@@ -8132,7 +8166,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10% Physical Penetration",
-        "stats": {},
+        "stats": {
+            "Physical Pen%": 0.1,
+        },
         "conversions": []
     },
     "Saga of Achilles 1": {
@@ -9076,7 +9112,9 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+10% Pierce Penetration",
-        "stats": {},
+        "stats": {
+            "Physical Pen%": 0.1
+        },
         "conversions": []
     },
     "Hammer Archon": {
@@ -9468,7 +9506,10 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+1% Global ATK, +10% Physical Penetration",
-        "stats": {},
+        "stats": {
+            "Global ATK%": 0.01,
+            "Physical Pen%": 0.1
+        },
         "conversions": []
     },
     "Epic of Jason 1": {
@@ -9675,7 +9716,10 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+1% Global ATK, -6% xPhys DMG, Conversion 5% ATK to DEF",
-        "stats": {},
+        "stats": {
+            "Global ATK%": 0.01,
+            "xPhys%": -0.06,
+        },
         "conversions": [
             {
                 "source": "ATK",
@@ -9700,7 +9744,10 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+1% Global ATK, '+4% xPhys DMG, Conversion 5% ATK to DEF",
-        "stats": {},
+        "stats": {
+            "Global ATK%": 0.01,
+            "xPhys%": 0.04
+        },
         "conversions": [
             {
                 "source": "ATK",
@@ -9725,7 +9772,11 @@ const talent_data: Record<string, Talent> = {
             "healer_levels": 0
         },
         "description": "+3% Global ATK, -75% Global MATK, +8% xVoid Pen",
-        "stats": {},
+        "stats": {
+            "Global ATK%": 0.03,
+            "Global MATK%": -0.75,
+            "Void Pen%": 0.08
+        },
         "conversions": []
     },
     "Abyssal Light of Desire": {
